@@ -34,9 +34,20 @@ form {
   padding: 20px;
 }
 
+.form-input-control {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-bottom: 30px;
+}
+
 .subtext {
   color: #a9a9a9;
   font-weight: unset;
+}
+
+hr {
+  margin: 30px 0;
 }
 
 #sign-in,
