@@ -72,7 +72,11 @@ form {
 
 .form-checkbox-control > label,
 .form-radio-control > label {
-  font-weight: normal ;
+  font-weight: normal;
+}
+
+.form-input-control > select {
+  height: 30px;
 }
 
 hr {
