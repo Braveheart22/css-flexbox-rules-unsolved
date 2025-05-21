@@ -38,11 +38,17 @@ form {
   padding: 20px 0;
 }
 
+.form-header {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
 .form-input-control {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  width: 90%;
+  width: 95%;
 }
 
 .form-submit-control {
@@ -57,12 +63,26 @@ form {
   font-weight: unset;
 }
 
-.form-checkbox-control > label {
+.form-checkbox-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 95%;
+}
+
+.form-checkbox-control > label,
+.form-radio-control > label {
   font-weight: normal ;
 }
 
 hr {
-  width: 90%;
+  width: 95%;
+}
+
+.form-group-horizontal-control {
+  display: flex;
+  width: 95%;
+  gap: 30px;
 }
 
 #sign-in,
