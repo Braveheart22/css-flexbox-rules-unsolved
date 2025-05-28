@@ -41,7 +41,7 @@ form {
 .form-header {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 6px;
 }
 
 .form-input-control {
