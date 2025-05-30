@@ -37,9 +37,13 @@ section {
 }
 
 .header-content {
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo-search {
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
@@ -51,6 +55,7 @@ section {
 
 .search-bar {
   width: 400px;
+  display: flex;
   background: #1f1f27;
   padding: 10px 20px;
   border-radius: 20px;
@@ -71,9 +76,16 @@ section {
 }
 
 .options {
+  display: flex;
+  justify-content: space-between;
+  
 }
 
 .option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
   min-width: 60px;
   text-transform: capitalize;
   cursor: pointer;
@@ -87,6 +99,10 @@ section {
 .categories {
   background-color: #2b2d36;
   padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  
 }
 
 .category {
@@ -111,6 +127,8 @@ section {
 }
 
 .view-options {
+  display: flex;
+  gap: 30px;
 }
 
 i.fa-th-list {
@@ -120,6 +138,8 @@ i.fa-th-list {
 .section-control {
   padding-bottom: 20px;
   border-bottom: 1px solid #8d8ba5;
+  display: flex;
+  justify-content: space-between;
 }
 
 .section-control .view-option {
@@ -127,6 +147,9 @@ i.fa-th-list {
   height: 40px;
   border: 1px solid #8d8ba5;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .products {
@@ -182,11 +205,17 @@ i.fa-th-list {
 /* GRID VIEW STYLES */
 
 .grid.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .grid .product {
   width: 300px;
   padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .grid .product-image-wrapper {
@@ -195,11 +224,16 @@ i.fa-th-list {
 
 .grid .product-data {
   height: 100%;
+  display: flex;
+  flex-direction: column
 }
 
 .grid .product-info {
   text-align: center;
   padding: 0 20px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .grid .product-action {
