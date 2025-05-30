@@ -39,11 +39,12 @@ section {
 .header-content {
   display: flex;
   justify-content: space-between;
+  gap: 30px;
 }
 
 .logo-search {
   display: flex;
-  justify-content: space-between;
+  gap: 60px;
 }
 
 .logo {
@@ -77,8 +78,7 @@ section {
 
 .options {
   display: flex;
-  justify-content: space-between;
-  
+  gap: 30px;
 }
 
 .option {
@@ -225,7 +225,8 @@ i.fa-th-list {
 .grid .product-data {
   height: 100%;
   display: flex;
-  flex-direction: column
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .grid .product-info {
