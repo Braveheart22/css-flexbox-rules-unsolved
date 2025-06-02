@@ -46,7 +46,7 @@ This assignment should prove that a student is able to:
 - [x] The code of the index.html and styles.css should pass the W3C validation (Feel free to use either the "w3c web validator" VSCode extension or the "Online w3c Markup Validation Service")
 - [x] The code MUST be formatted with Prettier.
 - [x] Push the changes to the Github repo, when finished.
-- [ ] Submit a .txt file with the Github repo url.
+- [x] Submit a .txt file with the Github repo url.
 
 You'll discover certain styles existing in the initial state of the CSS files. They're present for a purpose, but it's your call to determine whether you want to utilize them, remove them, or create some.
 
@@ -106,12 +106,12 @@ For the "Sign Up Form"
   - [x] Should require a value.
   - [x] The value should be validated to contain a minimum of 8 characters and a maximum of 20 by the default browser mechanism.
   - [x] Should hide symbols during typing.
-- [ ] The phone number input
+- [x] The phone number input
   - [x] Should require a value
   - [x] The value should be validated to follow a template of telephone number strictly.
 - [x] The avatar input
   - [x] Should be represented by a "Choose file" button allowing the user to select a file from their computer when clicked.
-- [ ] The state dropdown list
+- [x] The state dropdown list
   - [x] Should be a dropdown list with a default option "Select your state" selected by default and three options with random state names (Iowa, etc.).
   - [x] The default option should be unavailable to be selected.
 - [x] The city dropdown list
